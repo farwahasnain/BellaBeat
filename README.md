@@ -26,7 +26,7 @@ These datasets were merged to enable cross-feature analysis while accounting for
 ## 🧹 Data Preparation
 
 - Standardized column names and date formats across datasets
-- Merged datasets using `Customer_ID` and `Activity_Date`
+- Merged datasets using `customer_id` and `date`
 - Created:
   - `df_merged`: master dataset containing activity, sleep, and weight data
   - `df_sleep_analysis`: subset containing only records with valid sleep data
